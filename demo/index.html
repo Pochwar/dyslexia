@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Dyslexia demo</title>
+    <meta charset="UTF-8">
+</head>
+<body>
+<h1>Dyslexia demo</h1>
+<div>
+    <p>In:</p>
+    <textarea cols=50 rows=10 id="dyslexia_in" placeholder="type some text here"></textarea>
+</div>
+<div>
+    <p>Out:</p>
+    <p id="dyslexia_out"></p>
+</div>
+
+</body>
+<script src="../String.prototype.dyslexia.js"></script>
+<script>
+  (function() {
+    var dyslexia_in = document.querySelector('#dyslexia_in')
+    var dyslexia_out = document.querySelector('#dyslexia_out')
+
+    dyslexia_in.addEventListener('keyup', function() {
+      dyslexia_out.innerText = this.value.dyslexia(1)
+    }, false)
+
+  })()
+</script>
+</html>
