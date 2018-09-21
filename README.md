@@ -37,3 +37,6 @@ console.log(my_string.dyslexia()) // display something like "Hlelo dylsexia"
     - `4`: 20% of chances that the word gets "dyslexied"
     - ...
 - Usage: `my_string.dyslexia(2)`
+
+## Demo
+https://pochwar.github.io/dyslexia/demo/
