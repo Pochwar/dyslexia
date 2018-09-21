@@ -1,5 +1,5 @@
   {
-  "name": "Dyslexia",
+  "name": "string-prototype-dyslexia",
   "version": "1.0.0",
   "description": "A useless package to add some fun in your syntaxe!",
   "main": "String.prototype.dyslexia.js",
