@@ -1,6 +1,6 @@
   {
   "name": "string-prototype-dyslexia",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A useless package to add some fun in your syntaxe!",
   "main": "String.prototype.dyslexia.js",
   "scripts": {
