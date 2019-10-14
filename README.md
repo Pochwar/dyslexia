@@ -19,8 +19,8 @@ A useless package to add some fun in your syntaxe!
 - Use `dyslexia()` method on any string
 
 ```
-var my_string = "Hello dyslexia"
-console.log(my_string.dyslexia()) // display something like "Hlelo dylsexia"
+var my_string = "Hello dyslexia";
+console.log(my_string.dyslexia()) // display something like "Hlelo dylsexia";
 ```
 
 ## Options
